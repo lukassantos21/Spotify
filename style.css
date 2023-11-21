@@ -1,0 +1,75 @@
+
+/* estilos gerais */
+
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a, ul li span{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header .interface{
+    max-width: 100%;
+    height: 80px;
+    background-color: #000;
+  }
+
+.interface .flex{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .menu ul a{
+    color: #fff;
+}
+
+header .logo a{
+    color: #fff;
+}
+
+
+/* Estilos menu/logo */
+
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .logo i{
+  font-size: 50px;
+}
+
+header .menu ul{
+    display: flex;
+    padding: 25px 0;
+    gap: 40px;
+}
+
+header nav ul span{
+    color: #ffffffc9;
+}
+
+header nav ul a:hover{
+    cursor: pointer;
+    color: #1ed760
+}
+
+header .logo  a:hover{
+    cursor: pointer;
+    color: #1ed760
+}
+header nav .separador{
+    width: 2px;
+    background-color: #fff;
+}
+
+header nav ul span:hover{
+    color: #1ed760
+    } 
