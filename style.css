@@ -162,4 +162,15 @@ nav .entrar:hover{
  border: #fff solid 2px;
 }
 
+.conteudo-principal button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 2s;
 
+}
+
+.conteudo-principal .btn-transparente:hover{
+    background-color: #1ed760;
+    color: #000;
+    border: none;
+}
