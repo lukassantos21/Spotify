@@ -134,7 +134,7 @@ nav .entrar:hover{
     font-size: 12px;
     width: 400px;
     line-height: 16px;
-    margin-top: 50px;
+    margin-top: 30px;
     
 
 }
@@ -217,13 +217,14 @@ nav .entrar:hover{
 
  /* Área de pagamento */
 
- .pay{
+ .conteudo-pay{
     background: #efefef;
-    height: 900px;
+    height: 980px;
     padding-top: 50px;
+    
  }
 
-.pay p, h1{
+.conteudo-pay p, h1{
     color: #000;
     text-align: center;
     
@@ -234,8 +235,217 @@ nav .entrar:hover{
     font-weight: bold;
 }
 
- main .flexbox .card{
-    width: 100%;
-    height: 400px;
-    border: #1ed760 solid 2px;
+.planos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+.plano1, .plano2, .plano3, .plano4{
+    width: 300px;
+    height: 700px;
+    background: #fff;
+    margin: 60px 20px;
+    border-radius: 15px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+}
+
+.plano1 ul li span{
+   
+    line-height: 35px;
+}
+
+
+.planos ul li{
+   list-style: none;
+   
+}
+
+.planos ul{
+    margin: 15px 15px;
+}
+
+    /* plano1 */
+
+    .plano1 .primeiro-txt span{
+        background: #0c67d3;
+        border-radius: 4px;
+       font-size: 14px;
+       color: #fff;
+       padding: 3px;
+       
+    }
+
+    .plano1 .segundo-txt span{
+        border: #0c67d3 solid 2px;
+        border-radius: 4px;
+       font-size: 14px;
+       color:#0c67d3;
+       padding: 3px;
+       
+    }
+
+    .plano1 h3{
+        margin-left: 15px;
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+
+    .plano1 .descricao{
+        font-size: 16px;
+        text-align: left;
+        margin: 8px 15px;
+        line-height: 22px;
+       
+    }
+
+    .plano1 .numero-conta{
+        text-align: left;
+        font-size: 16px;
+        margin: 8px 15px 20px;
+        line-height: 22px;
+    }
+
+    .plano1 .separador{
+        width: 90%;
+        border: rgb(204, 204, 204) solid 1px;
+        align-self: stretch;
+        margin: 20px auto;
+    }
+    
+    /* plano2 */
+    
+    .plano2 .segundo-txt span{
+        border: #0c67d3 solid 2px;
+        border-radius: 4px;
+       font-size: 14px;
+       color:#0c67d3;
+       padding: 3px;
+       text-align: left;
+       
+    }
+
+    .plano2 h3{
+        margin-left: 15px;
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+
+    .plano2 .descricao{
+        font-size: 16px;
+        text-align: left;
+        margin: 8px 15px;
+        line-height: 22px;
+       
+    }
+   
+    .plano2 .numero-conta{
+        text-align: left;
+        font-size: 16px;
+        margin: 8px 15px 20px;
+        line-height: 22px;
+    }
+
+    
+    .plano2 .separador{
+        width: 90%;
+        border: rgb(204, 204, 204) solid 1px;
+        align-self: stretch;
+        margin: 90px 6px 0px auto;
+
+    }
+
+
+    /* descrição plano1  */
+
+    .descricao-plano1 ul li i{
+        font-size: 26px;
+        line-height: 15px;
+        
+        
+    }
+
+    .descricao-plano1 ul li p{
+        text-align: left;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    
+    .descricao-plano1 ul li{
+     display: flex;
+     margin-top: 15px;
+     gap: 6px;
+     }
+
+     /* discrição plano2 */
+
+     .descricao-plano2 ul li i{
+        font-size: 26px;
+        line-height: 15px;
+        
+        
+    }
+
+    .descricao-plano2 ul li p{
+        text-align: left;
+        font-size: 15px;
+        line-height: 18px;
+    
+    }
+    
+    .descricao-plano2 ul li{
+     display: flex;
+     margin-top: 10px;
+     gap: 6px;
+     }
+
+     .btn-primeiro button{
+        background-color: #000;
+        color: #fff;
+        padding: 15px 70px;
+        border-radius: 500px;
+        margin: 110px auto;
+        display: flex;
+        transition: 2s;
+     }
+
+     .btn-segundo button{
+        background-color: #000;
+        color: #fff;
+        padding: 15px 70px;
+        border-radius: 500px;
+        margin: 145px auto;
+        display: flex;
+        transition: 2s;
+     }
+
+
+     .btn-terceiro button{
+        background-color: #000;
+        color: #fff;
+        padding: 15px 70px;
+        border-radius: 500px;
+        margin: 20px auto;
+        display: flex;
+        transition: 2s;
+     }
+
+
+     .btn-quarto button{
+        background-color: #000;
+        color: #fff;
+        padding: 15px 70px;
+        border-radius: 500px;
+        margin: 110px auto;
+        display: flex;
+        transition: 2s;
+     }
+
+
+     .planos button:hover{
+       cursor: pointer;
+       transform: scale(1.09);
+     }
