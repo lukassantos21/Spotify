@@ -33,9 +33,6 @@ header .logo a{
     color: #fff;
 }
 
-.container{
-    position: fixed;
-}
 
 /* Estilos menu/logo */
 
@@ -94,7 +91,7 @@ nav .entrar:hover{
 } 
 
 
-/* estilo corpo do site */
+/* estilo parte principal do site */
 .container{
     width: 100%;
     height: 500px;
@@ -175,9 +172,11 @@ nav .entrar:hover{
     border: none;
 }
 
+/* cards */
+
 .card {
    width: 100%;
-   height: 500px;
+   height: 550px;
 
    
 }
@@ -213,3 +212,28 @@ nav .entrar:hover{
     text-align: center;
 }
  
+
+ /* Área de pagamento */
+
+ .pay{
+    background: #efefef;
+    height: 900px;
+    padding-top: 50px;
+ }
+
+.pay p, h1{
+    color: #000;
+    text-align: center;
+    
+}
+
+.pay h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+ main .flexbox .card{
+    width: 100%;
+    height: 400px;
+    border: #1ed760 solid 2px;
+}
