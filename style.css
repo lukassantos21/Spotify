@@ -33,9 +33,6 @@ header .logo a{
     color: #fff;
 }
 
-.container{
-    position: fixed;
-}
 
 /* Estilos menu/logo */
 
@@ -94,7 +91,7 @@ nav .entrar:hover{
 } 
 
 
-/* estilo corpo do site */
+/* estilo parte principal do site */
 .container{
     width: 100%;
     height: 500px;
@@ -105,7 +102,6 @@ nav .entrar:hover{
 .flexbox{
     width: 50%;
     height: 500px;
-    /* border: #1ed760 solid 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,6 +113,7 @@ nav .entrar:hover{
     height: 300px;
     line-height: 44px;
     margin-left: 80px ;
+
     
    
 }
@@ -125,24 +122,26 @@ nav .entrar:hover{
 }
 .conteudo-principal h1{
     font-size: 40px;
+    text-align: left;
 }
 
 .conteudo-principal p.p-principal{
     font-size: 26px;
+    margin-top: 20px;
 }
 
 .conteudo-principal p.info{
     font-size: 12px;
     width: 400px;
     line-height: 16px;
-    margin-top: 50px;
+    margin-top: 30px;
     
 
 }
 
 .conteudo-principal button{
     line-height: 30px;
-    margin: 50px 20px 0px 0px;
+    margin: 30px 20px 0px 0px;
     
 }
 
@@ -175,4 +174,282 @@ nav .entrar:hover{
     border: none;
 }
 
+<<<<<<< HEAD
 .conteudo-secundario{}
+=======
+/* cards */
+
+.card {
+   width: 100%;
+   height: 550px;
+
+   
+}
+
+
+.card h1{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 36px;
+}
+
+.itens{
+    display: flex;
+    gap: 50px;
+   justify-content:space-between;
+   margin: 72px 170px;
+   gap: 30px;
+}
+    
+.itens p{
+    color: #000;
+}
+
+.item h3{
+    font-size: 20px;
+}
+
+.item1, img{
+  width: 112px;
+  padding-bottom: 35px;
+}
+.card1, .card2, .card3, .card4{
+    text-align: center;
+}
+ 
+
+ /* Área de pagamento */
+
+ .conteudo-pay{
+    background: #efefef;
+    height: 980px;
+    padding-top: 50px;
+    
+ }
+
+.conteudo-pay p, h1{
+    color: #000;
+    text-align: center;
+    
+}
+
+.pay h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.planos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.plano1, .plano2, .plano3, .plano4{
+    width: 300px;
+    height: 700px;
+    background: #fff;
+    margin: 60px 20px;
+    border-radius: 15px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+}
+
+.plano1 ul li span{
+   
+    line-height: 35px;
+}
+
+
+.planos ul li{
+   list-style: none;
+   
+}
+
+.planos ul{
+    margin: 15px 15px;
+}
+
+    /* plano1 */
+
+    .plano1 .primeiro-txt span{
+        background: #0c67d3;
+        border-radius: 4px;
+       font-size: 14px;
+       color: #fff;
+       padding: 3px;
+       
+    }
+
+    .plano1 .segundo-txt span{
+        border: #0c67d3 solid 2px;
+        border-radius: 4px;
+       font-size: 14px;
+       color:#0c67d3;
+       padding: 3px;
+       
+    }
+
+    .plano1 h3{
+        margin-left: 15px;
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+
+    .plano1 .descricao{
+        font-size: 16px;
+        text-align: left;
+        margin: 8px 15px;
+        line-height: 22px;
+       
+    }
+
+    .plano1 .numero-conta{
+        text-align: left;
+        font-size: 16px;
+        margin: 8px 15px 20px;
+        line-height: 22px;
+    }
+
+    .plano1 .separador{
+        width: 90%;
+        border: rgb(204, 204, 204) solid 1px;
+        align-self: stretch;
+        margin: 20px auto;
+    }
+    
+    /* plano2 */
+    
+    .plano2 .segundo-txt span{
+        border: #0c67d3 solid 2px;
+        border-radius: 4px;
+       font-size: 14px;
+       color:#0c67d3;
+       padding: 3px;
+       text-align: left;
+       
+    }
+
+    .plano2 h3{
+        margin-left: 15px;
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+
+    .plano2 .descricao{
+        font-size: 16px;
+        text-align: left;
+        margin: 8px 15px;
+        line-height: 22px;
+       
+    }
+   
+    .plano2 .numero-conta{
+        text-align: left;
+        font-size: 16px;
+        margin: 8px 15px 20px;
+        line-height: 22px;
+    }
+
+    
+    .plano2 .separador{
+        width: 90%;
+        border: rgb(204, 204, 204) solid 1px;
+        align-self: stretch;
+        margin: 90px 6px 0px auto;
+
+    }
+
+
+    /* descrição plano1  */
+
+    .descricao-plano1 ul li i{
+        font-size: 26px;
+        line-height: 15px;
+        
+        
+    }
+
+    .descricao-plano1 ul li p{
+        text-align: left;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    
+    .descricao-plano1 ul li{
+     display: flex;
+     margin-top: 15px;
+     gap: 6px;
+     }
+
+     /* discrição plano2 */
+
+     .descricao-plano2 ul li i{
+        font-size: 26px;
+        line-height: 15px;
+        
+        
+    }
+
+    .descricao-plano2 ul li p{
+        text-align: left;
+        font-size: 15px;
+        line-height: 18px;
+    
+    }
+    
+    .descricao-plano2 ul li{
+     display: flex;
+     margin-top: 10px;
+     gap: 6px;
+     }
+
+     .btn-primeiro button{
+        background-color: #000;
+        color: #fff;
+        padding: 15px 70px;
+        border-radius: 500px;
+        margin: 110px auto;
+        display: flex;
+        transition: 2s;
+     }
+
+     .btn-segundo button{
+        background-color: #000;
+        color: #fff;
+        padding: 15px 70px;
+        border-radius: 500px;
+        margin: 145px auto;
+        display: flex;
+        transition: 2s;
+     }
+
+
+     .btn-terceiro button{
+        background-color: #000;
+        color: #fff;
+        padding: 15px 70px;
+        border-radius: 500px;
+        margin: 20px auto;
+        display: flex;
+        transition: 2s;
+     }
+
+
+     .btn-quarto button{
+        background-color: #000;
+        color: #fff;
+        padding: 15px 70px;
+        border-radius: 500px;
+        margin: 110px auto;
+        display: flex;
+        transition: 2s;
+     }
+
+
+     .planos button:hover{
+       cursor: pointer;
+       transform: scale(1.09);
+     }
+>>>>>>> main-2
