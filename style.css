@@ -114,6 +114,7 @@ nav .entrar:hover{
     height: 300px;
     line-height: 44px;
     margin-left: 80px ;
+    border: #1ed760 solid 2px;
     
    
 }
@@ -121,8 +122,10 @@ nav .entrar:hover{
     color: #fff;
 }
 .conteudo-principal h1{
-    font-size: 40px;
+    font-size: 38px;
 }
+
+
 
 .conteudo-principal p.p-principal{
     font-size: 26px;
